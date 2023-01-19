@@ -14,4 +14,6 @@ To run the algorithm with novoSpaRc:
   2. choose an initial weight over genes. Typically uniform  
   4. run novo_weight.multi_weight_novo_param(init_weight, filtered_data, num_itr, dim, n_s, n_t, eps, 0.5)
  
-[tutorial.ipynb](https://github.com/syq2012/cleaned_up_rna/blob/main/tutorial.ipynb) is an jupyter notebook containing example code for both AE and novoSpaRc
+[tutorial.ipynb](https://github.com/syq2012/cleaned_up_rna/blob/main/tutorial.ipynb) is an jupyter notebook containing example code for both AE and novoSpaRc. 
+
+Codes for generating Synthetic dataset is at [python script](https://github.com/syq2012/cleaned_up_rna/blob/main/src/RNAupdate/dataset_gen.py)
